@@ -1,0 +1,78 @@
+/*color and fonts*/
+
+body {
+background: #F1AB86;
+color: #21295C;
+font-family: 'Bentham', serif;
+}
+h1 {
+    color: #1B3B6F;
+}
+
+h2 {font-size: 35px;
+    color:#0A2463;
+    font-family: georgia;
+}
+
+p {color: #4a9ff5;
+font-size: 20px;
+
+}
+
+h3 {
+ 
+    font-family: georgia;
+    color:  #0A2463;
+    font-size: 30px;
+}
+ 
+p {
+    color: #4a9ff5; 
+}
+ 
+a {
+    color: #065A82;
+ 
+}
+ 
+a:hover {
+    color: #1B3B6F;
+}
+div{
+    width: 1300px;
+    margin: 0px;
+
+}
+ 
+
+/*custom design with class*/
+ 
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+.card-white {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 20px;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 50%
+}
+.btn-blue {
+    background-color: #63aebb;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover {
+    background-color: grey;
+    color: white;
+}
+.list-line {
+    list-style: none;
+    padding-left: 0px;
+}
